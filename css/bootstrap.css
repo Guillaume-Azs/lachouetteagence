@@ -102,10 +102,6 @@ sub {
     bottom: -.25em
 }
 
-img {
-    border: 0;
-}
-
 svg:not(:root) {
     overflow: hidden
 }
@@ -228,7 +224,12 @@ td,
 th {
     padding: 0
 }
-
+.image1{
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -265,10 +266,10 @@ th {
     }
     img,
     tr {
-        page-break-inside: avoid
+        page-break-inside: avoid;
     }
     img {
-        max-width: 100% !important
+        max-width: 100px;
     }
     h2,
     h3,
